@@ -1,1 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
+
+/*
+Esse CSS serve para tudo e todos de componentes, portanto mexeu aqui alterou tudo
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica;
+}
+
+a{
+    color: orange;
+}
