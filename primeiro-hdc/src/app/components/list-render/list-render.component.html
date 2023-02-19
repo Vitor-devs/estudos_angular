@@ -1,0 +1,15 @@
+<div class="class">
+    <h2>Animais :</h2>
+    <ul>
+        <li *ngFor="let animal of animals">Olá {{animal.name}}! Vejo aqui que você é um {{animal.type}}</li>
+    </ul>
+
+    <h3>Dados das pessoas inscritas na lista: </h3>
+    <ul>
+        <li *ngFor="let individuo of pessoas">Oie {{individuo.nome}}, você tem {{individuo.idade}} anos? Nem parece! E tem trabalhado de {{individuo.job}}? Ta podendo hein!</li>
+    </ul>
+</div>
+
+
+
+<!-- {{pessoas.idade}},  {{pessoas.job}}-->

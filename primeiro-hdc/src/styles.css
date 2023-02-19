@@ -13,3 +13,13 @@ Esse CSS serve para tudo e todos de componentes, portanto mexeu aqui alterou tud
 a{
     color: orange;
 }
+
+body{
+    margin-bottom: 500px;
+}
+
+.class{
+    border: 1px solid red;
+    padding: 2em;
+    margin-bottom: 1em;
+}

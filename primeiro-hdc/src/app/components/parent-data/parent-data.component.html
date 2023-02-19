@@ -1,0 +1,19 @@
+<div class="class">
+    <p>parent-data works!</p>
+    <p>Nome do usuário : {{name}}</p>
+    <p>Idade do usuário : {{idade}}</p>
+    <p>Email do usuário : {{dados.email}}</p>
+    <p>Função do usuário : {{dados.role}}</p>
+    
+    
+</div>
+
+<!--
+    Processo para compartilhar dados:
+    1- Cria o dado a ser compartilhado via TS em x component
+    2- Vá no componente que você quer que receba ele e no TS dele importe Input
+    3- Ainda no TS do component que recebe @Input() nomeVariavel : tipoVariavel = ''; dentro do export class
+    4- Agora no HTML que você deseja colocar importe ele dentro da tag do component, use [nomeVariavel] = {{NomeTSPai}}
+    5- Agora pode usar dentro do component que voce importou
+
+-->
